@@ -77,6 +77,18 @@ class homeScreen extends StatelessWidget {
                 Expanded(child: customsquare(color: Colors.black)),
                 Expanded(child: customsquare(color: Colors.white))
               ]),
+              Row(children: [
+                Expanded(child: customsquare(color: Colors.white)),
+                Expanded(child: customsquare(color: Colors.black)),
+                Expanded(child: customsquare(color: Colors.white)),
+                Expanded(child: customsquare(color: Colors.black)),
+              ]),
+              Row(children: [
+                Expanded(child: customsquare(color: Colors.black)),
+                Expanded(child: customsquare(color: Colors.white)),
+                Expanded(child: customsquare(color: Colors.black)),
+                Expanded(child: customsquare(color: Colors.white))
+              ]),
             ],
           ),
         ),
